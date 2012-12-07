@@ -111,7 +111,7 @@
 
 		var loadingImage;
 		if(self.options.loadingImage) {
-			$(self.options.appendTo).append("<div id='scroll_append_loading' class='scroll_append_loading'><img src='"+self.options.loadingImage+"'></div>");
+			$(self.options.appendTo).append("<div id='scroll_append_loading' class='scroll_append_loading' style='postion:absolute;bottom:-30'><img src='"+self.options.loadingImage+"'></div>");
 		}
 		
 		$.ajax({
