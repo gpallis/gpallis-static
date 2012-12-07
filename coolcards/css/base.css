@@ -1,0 +1,176 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+/* END RESET */
+
+div.feedback_box {
+    padding:2px;
+    position:absolute;
+    display: inline;
+}
+
+div.feedback_box>span {
+    color:#777777;
+    font-family: Gill Sans, sans-serif;
+    font-size: 12px;
+}
+
+div.wrapper {
+    position:absolute;
+    width:100%;
+    top:72px;
+    bottom:10px;
+    /*overflow:hidden;*/
+}
+
+div.card_holder {
+    width:50%;
+    height:100%;
+    display: inline-block;
+}
+
+input.card_left {
+    float:right;
+    padding-right:10px;
+    min-width: 138px;
+    min-height: 200px;
+    height:100%;
+    max-height:445px;
+    max-width:312px;
+}
+input.card_right {
+    float:left;
+    padding-left:10px;
+    min-width: 138px;
+    min-height: 200px;
+    height:100%;
+    max-height:445px;
+    max-width:312px;
+}
+
+p.strapline {
+    color:#555555;
+    font-family: Gill Sans, Courier, sans-serif;
+    font-size: 36;
+    font-weight: bold;
+    padding-left:2%;
+    padding-top: 19px;
+    text-align: center;
+}
+
+div.link_box {
+    position:absolute;
+    top:5px;
+    right:5px;
+    float:right;
+    color:#777777;
+    font-family: Gill Sans, sans-serif;
+    font-size: 14px;
+}
+
+div.link_box>a {
+    text-decoration:none;
+    color:red
+}
+
+/*leaderboard*/
+
+table {
+    vertical-align: top;
+    border: 1px solid;
+    border-collapse:collapse;
+    font-family: Gill Sans, sans-serif;
+    font-weight: bold;
+    font-size: 36;
+}
+
+td {
+    border: 2px solid transparent;
+    text-align:left;
+}
+
+tr:nth-child(2n-1) {
+    color:#777777;
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(2n) {
+    color:#666666;
+    background-color:#eeeeee;
+}
+
+p.card-name-and-number {
+    padding-top:10px;
+    padding-left:20px;
+    padding-bottom:2px;
+}
+
+p.card-rules {
+    padding-top:5px;
+    padding-left:40px;
+    padding-bottom:0px;
+    font-size:20;
+    font-weight:normal;
+}
+
+/*FAQ*/
+p.FAQ-answer {
+    color:#666666;
+    font-size: 14pt;
+    padding-top:2px;
+    padding-bottom:20px;
+}
+p.FAQ-answer>a {
+    text-decoration:none;
+    color:#666666;
+    font-weight:bold;
+}
+p.FAQ-question {
+    font-family: Gill Sans, sans-serif;
+    color:#333333;
+    font-size: 24pt;
+}
+p.FAQ-strapline {
+    font-family: Gill Sans, sans-serif;
+    color:#333333;
+    font-size: 30pt;
+    padding-top:10px;
+    padding-bottom:20px;
+}
